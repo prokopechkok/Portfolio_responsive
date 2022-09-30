@@ -1,11 +1,16 @@
+:root {
+  --hero-color: rgb(148, 142, 142);
+  --main-font-family: "Nunito", sans-serif;
+  --secondary-font-family: "Roboto", sans-serif;
+}
 h1,
 h2,
 h3 {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 700;
 }
 h5 {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--main-font-family);
   font-weight: normal;
 }
 h1 {
@@ -20,11 +25,11 @@ h3 {
   line-height: 35px;
 }
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--secondary-font-family);
   font-weight: normal;
 }
 .hero {
-  background-color: gray;
+  background: var(--hero-color);
   text-align: center;
   padding-top: 47px;
   padding-bottom: 58px;
