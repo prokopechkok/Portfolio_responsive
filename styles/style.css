@@ -13,6 +13,7 @@ h5 {
   font-family: var(--main-font-family);
   font-weight: normal;
 }
+
 h1 {
   color: white;
   font-size: 72px;
@@ -28,8 +29,20 @@ p {
   font-family: var(--secondary-font-family);
   font-weight: normal;
 }
+
+.homepage-link {
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  color: #272142;
+  text-decoration: none;
+}
+.container {
+  padding: 88px 140px;
+}
 .hero {
-  background: var(--hero-color);
+  background-color: var(--hero-color);
   text-align: center;
   padding-top: 47px;
   padding-bottom: 58px;
