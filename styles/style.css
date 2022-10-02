@@ -47,3 +47,14 @@ p {
   padding-top: 47px;
   padding-bottom: 58px;
 }
+@media (max-width: 576px) {
+  h1 {
+    line-height: 1;
+  }
+  .homepage-link {
+    text-align: center;
+  }
+  .container {
+    padding: 26px 60px;
+  }
+}
