@@ -1,5 +1,5 @@
 :root {
-  --hero-color: rgb(148, 142, 142);
+  --main-text-color: #272142;
   --main-font-family: "Nunito", sans-serif;
   --secondary-font-family: "Roboto", sans-serif;
 }
@@ -14,13 +14,13 @@ h5 {
   font-weight: normal;
 }
 
-h1 {
+.hero h1 {
   color: white;
   font-size: 72px;
   line-height: 98px;
   margin: 0 auto;
 }
-h3 {
+.hero h3 {
   color: white;
   font-size: 24px;
   line-height: 35px;
@@ -31,15 +31,19 @@ p {
 }
 
 .homepage-link {
+  display: block;
+  text-align: left;
+  margin: 20px 0;
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 28px;
   line-height: 38px;
-  color: #272142;
+  color: var(--main-text-color);
   text-decoration: none;
 }
-.homepage-link:hover {
-  color: #272142;
+.homepage-link:hover,
+.about-link:hover {
+  color: var(--main-text-color);
   opacity: 0.7;
 }
 
@@ -52,8 +56,75 @@ p {
   padding-top: 47px;
   padding-bottom: 58px;
 }
+.about-hero {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.about-hero img,
+.about-text {
+  max-height: 450px;
+  max-width: 460px;
+  margin: 0 10px;
+}
+.about-text {
+  display: block;
+  margin: 0;
+  padding: 10px;
+}
+.about-hero h1,
+h2,
+p,
+footer {
+  color: var(--main-text-color);
+}
+.about-hero h1 {
+  font-size: 72px;
+  line-height: 98px;
+}
+.about-hero h2 {
+  font-size: 64px;
+  line-height: 87px;
+  width: 100%;
+}
+.about-hero p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.about-hero footer {
+  font-weight: 700;
+}
+.about-recipe-list h3 {
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.about-recipe-list p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.about-recipe-list col-md-4 {
+  padding: 100px;
+  max-width: 360px;
+  max-height: 513 px;
+}
+
+.about-link {
+  display: block;
+  text-align: left;
+  margin: 20px 0;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
-  .hero {
+  .hero,
+  .about-hero {
     padding: 20px 25px;
   }
   .homepage-link {
@@ -65,6 +136,8 @@ p {
 
 @media (min-width: 992px) {
   .container {
-    padding: 88px 140px;
+    width: 100%;
+    padding: 88px 90px;
+    margin: 0 auto;
   }
 }
