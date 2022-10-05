@@ -3,33 +3,64 @@
   --main-font-family: "Nunito", sans-serif;
   --secondary-font-family: "Roboto", sans-serif;
 }
+
 h1,
 h2,
-h3 {
+h3,
+h5 {
   font-family: var(--main-font-family);
   font-weight: 700;
 }
-h5 {
-  font-family: var(--main-font-family);
-  font-weight: normal;
-}
 
-.hero h1 {
-  color: white;
+/* h5 {
+  font-family: var(--main-font-family);
+  font-weight: 700;
+} */
+.content-h1 {
+  /* font-family: var(--main-font-family);
+  font-weight: 700; */
   font-size: 72px;
   line-height: 98px;
   margin: 0 auto;
 }
-.hero h3 {
+.recipe-content {
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.hero h1 {
   color: white;
+  /* font-size: 72px;
+  line-height: 98px;
+  margin: 0 auto;*/
+}
+.content-h3 {
   font-size: 24px;
   line-height: 35px;
 }
-p {
-  font-family: var(--secondary-font-family);
-  font-weight: normal;
+.content-h5 {
+  font-size: 18px;
+  line-height: 25px;
+}
+.recipe-h5 {
+  color: #f65282;
+  font-weight: 800;
+}
+.hero h3 {
+  color: white;
+  /* font-size: 24px;
+  line-height: 35px; */
 }
 
+p {
+  font-family: var(--secondary-font-family);
+  font-weight: 400;
+}
+hr {
+  border-top: 2px dashed #67d5d2;
+  max-width: 760px;
+}
 .homepage-link {
   display: block;
   text-align: left;
@@ -77,20 +108,24 @@ p,
 footer {
   color: var(--main-text-color);
 }
-.about-hero h1 {
+/* .about-hero h1 {
   font-size: 72px;
   line-height: 98px;
-}
+} */
 .about-hero h2 {
   font-size: 64px;
   line-height: 87px;
   width: 100%;
 }
-.about-hero p {
+.content-p {
+  font-size: 18px;
+  line-height: 30px;
+}
+/* .about-hero p {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
-}
+} */
 .about-hero footer {
   font-weight: 700;
 }
@@ -121,7 +156,14 @@ footer {
   color: var(--main-text-color);
   text-decoration: none;
 }
-
+.recipe-link {
+  font-size: 36px;
+}
+.recipe-img {
+  max-width: 760px;
+  max-height: 450px;
+  width: 100%;
+}
 @media (max-width: 768px) {
   .hero,
   .about-hero {
