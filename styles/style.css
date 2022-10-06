@@ -117,9 +117,19 @@ footer {
   line-height: 87px;
   width: 100%;
 }
+.contact-hero {
+  max-width: 966px;
+}
 .content-p {
   font-size: 18px;
   line-height: 30px;
+}
+.contact-p {
+  line-height: 30px;
+  font-size: 24px;
+}
+.contact-h5 {
+  color: #662eed;
 }
 /* .about-hero p {
   font-size: 18px;
