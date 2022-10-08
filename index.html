@@ -37,18 +37,25 @@
 
   <body>
     <div class="container">
-    <nav class="navbar">
-      <a href="#">
-        <img src="/images/She Codes.png" class="img-fluid logo" alt="" />
-      </a>
+      <nav class="navbar">
+        <a href="#">
+          <img
+            src="/images/logo-small.jpg"
+            class="img-fluid logo d-inline d-md-none"
+            alt=""
+          />
+          <img
+            src="/images/She Codes.png"
+            class="img-fluid logo d-none d-md-flex"
+            alt=""
+          />
+        </a>
 
-        <ul class="">
-          <li class=" active">
-            <a href="/"
-              >Home</a
-            >
+        <ul>
+          <li class="active">
+            <a href="/">Home</a>
           </li>
-          <li >
+          <li>
             <a class="nav-link" href="/about.html">About</a>
           </li>
           <li>
@@ -58,38 +65,15 @@
             <a class="nav-link" href="/contact.html">Contact</a>
           </li>
         </ul>
+      </nav>
+      <div class="hero mb-5">
+        <h1 class="content-h1">Recipe Collection</h1>
+        <h3 class="d-none d-md-block content-h3">
+          Find a variety of inspiring recipes that are easy, delicious, and
+          healthy here
+        </h3>
       </div>
-    </nav>
-    <div class="hero mb-4">
-      <h1 class="content-h1">Recipe Collection</h1>
-      <h3 class="d-none d-md-block content-h3">
-        Find a variety of inspiring recipes that are easy, delicious, and
-        healthy here
-      </h3>
-    </div>
-   
-      <div class="about-hero">
-        <div class="row">
-          <div class="col-md-6">
-            <img
-              src="images/About-hero.png"
-              alt="girl photo"
-              class="img-fluid"
-            />
-          </div>
-
-          <div class="col-md-6 about-text">
-            <h2 class="mt-5 mb-5">Shelley White</h2>
-            <p class="content-p">
-              Nisl faucibus quis urna nibh ut amet diam suscipit pretium massa
-              sollicitudin in risus in sagittis nisl faucibus quis urna nibh ut
-              amet diam suscipit pretium massa, sollicitudin in risus in.
-              Sagittis.
-            </p>
-            <footer class="mt-5 mb-5">Follow me:</footer>
-          </div>
-        </div>
-      </div>
+<div class="recipe-rows">
       <div class="row mb-md-4">
         <div class="col-md-6">
           <img
@@ -181,6 +165,35 @@
           >
         </div>
       </div>
+    </div>
+      <footer>
+        <div class="row">
+          <div class="col">
+            <a href="#">
+              <img
+                src="/images/logo-small.jpg"
+                class="img-fluid logo d-inline d-md-none"
+                alt=""
+              />
+              <img
+                src="/images/She Codes.png"
+                class="img-fluid logo d-none d-md-block"
+                alt=""
+              />
+            </a>
+          </div>
+
+          <div class="col social-links text-center">
+            <a href=""><i class="fa-brands fa-square-facebook pe-4"></i></a>
+            <a href=""><i class="fa-brands fa-instagram pe-sm-4"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+
+          <div class="col">
+            <p class="footer-text">© 2021 SheCodes All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

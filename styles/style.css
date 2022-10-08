@@ -17,13 +17,11 @@ h5,
   font-weight: 700;
 }
 
-/* h5 {
+p {
   font-family: var(--main-font-family);
-  font-weight: 700;
-} */
+  font-weight: 400;
+}
 .content-h1 {
-  /* font-family: var(--main-font-family);
-  font-weight: 700; */
   font-size: 72px;
   line-height: 98px;
   margin: 0 auto;
@@ -57,10 +55,26 @@ h5,
   /* font-size: 24px;
   line-height: 35px; */
 }
-
-p {
+footer {
+  
+  background-color: #f9f7fe;
+}
+.recipe-rows, footer{
+  padding: 38px 140px;
+}
+footer p {
   font-family: var(--secondary-font-family);
   font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  text-align: right;
+}
+footer .social-links a{
+  
+  max-height: 19px;
+  max-width: 102px;
+  
 }
 hr {
   border-top: 2px dashed #67d5d2;
@@ -111,13 +125,10 @@ hr {
 h2,
 p,
 footer,
-.nav-link {
+.nav-link , .social-links a{
   color: var(--main-text-color);
 }
-/* .about-hero h1 {
-  font-size: 72px;
-  line-height: 98px;
-} */
+
 .about-hero h2 {
   font-size: 64px;
   line-height: 87px;
@@ -184,6 +195,7 @@ nav li.active a,
 }
 .logo {
   max-height: 25px;
+  max-width: 150px;
 }
 nav a {
   text-decoration: none;
@@ -212,6 +224,9 @@ nav ul {
     display: block;
     text-align: center;
     margin-bottom: 10px;
+  }
+  .recipe-rows{
+    padding: 15px;
   }
 }
 
