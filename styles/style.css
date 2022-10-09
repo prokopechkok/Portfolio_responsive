@@ -5,7 +5,7 @@
 }
 .container,
 body {
-  padding: 0;
+  padding: 10px;
   margin: 0 auto;
 }
 h1,
@@ -23,6 +23,7 @@ p {
 }
 footer {
   background-color: #f9f7fe;
+  margin-top: 100px;
 }
 footer p {
   font-family: var(--secondary-font-family);
@@ -40,7 +41,7 @@ footer .social-links a {
 .content-h1 {
   font-size: 72px;
   line-height: 98px;
-  margin: 0 auto;
+  margin: 26px auto 126px;
 }
 .content-h3 {
   font-size: 24px;
@@ -52,6 +53,7 @@ footer .social-links a {
 }
 
 .hero h1 {
+  margin: 0 auto;
   color: white;
 }
 .hero h3 {
@@ -86,17 +88,11 @@ footer .social-links a {
   padding-bottom: 58px;
 }
 
-/* .about-hero {
-  max-width: 960px;
-  max-height: 460px;
-  margin: 0 auto;
-} */
-
 h2,
 p,
 footer,
 .nav-link,
-.social-links a, .about-link {
+.social-links a, .about-link, .mail-link{
   color: var(--main-text-color);
 }
 
@@ -106,19 +102,14 @@ footer,
  
 }
 .about-img{
-  /* max-width: 450px; */
-
   margin: 0 auto;
  
 }
 .about-text {
-  /* max-height: 450px;
-  max-width: 460px; */
   margin: 0 auto;
   padding: 10px;
 }
 .about-text h2 {
-  
   font-size: 64px;
   line-height: 87px;
  
@@ -175,8 +166,6 @@ footer {
   color: #f65282;
   font-weight: 800;
 }
-
-
 .recipe-link {
   font-size: 36px;
 }
@@ -196,7 +185,7 @@ footer {
 .contact-h5,
 nav li.active a,
 .nav-link:hover,
-.social-links a:hover {
+.social-links a:hover, .mail-link:hover {
   color: #662eed;
 }
 
@@ -230,7 +219,7 @@ nav ul {
     padding: 20px;
   }
 
-  .homepage-link {
+  .homepage-link, .recipe-link {
     display: block;
     font-size: 25px;
     text-align: center;
@@ -251,13 +240,14 @@ nav ul {
   .content-h1 {
     font-size: 60px;
     line-height: 1;
+    margin-bottom: 20px;
+  }
+  .content-p{
+    padding: 0;
   }
 }
 
 @media (min-width: 992px) {
-  /* .container {
-    width: 100%;
-  } */
   nav .navbar,
   .about-recipe-list col-md-4 {
     padding: 48px 140px;

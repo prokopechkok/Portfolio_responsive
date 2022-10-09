@@ -32,67 +32,82 @@
     <title>Contact</title>
   </head>
   <body>
-    
     <div class="container">
       <nav class="navbar">
-        <a href="#">
-          <img src="/images/She Codes.png" class="img-fluid logo" alt="" />
+        <a href="https://www.shecodes.io/" target="_blank">
+          <img
+            src="/images/She Codes.png"
+            class="img-fluid logo d-none d-md-block"
+            alt="SheCodes logo"
+          />
         </a>
-  
-          <ul class="">
-            <li class=" active">
-              <a href="/"
-                >Home</a
-              >
-            </li>
-            <li >
-              <a class="nav-link" href="/about.html">About</a>
-            </li>
-            <li>
-              <a class="nav-link" href="/recipe.html">Recipe</a>
-            </li>
-            <li>
-              <a class="nav-link" href="/contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
+
+        <ul class="d-flex">
+          <li class="nav-link">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="active">
+            <a class="nav-link" href="/recipe.html">Recipe</a>
+          </li>
+          <li>
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </li>
+        </ul>
       </nav>
 
-      <div class="about-hero contact-hero">
-        <h1 class="content-h1 text-center mb-5">Contact</h1>
+      <h1 class="content-h1 text-center">Contact</h1>
+      <div class="row about-hero-row ">
+        <div class="col-lg-6 ">
+          <img
+            src="images/About-hero.png"
+            alt="girl photo"
+            class="img-fluid d-flex justify-content-center about-img"
+          />
+        </div>
 
-        <div class="row">
-          <div class="col-md-6">
-            <img
-              src="/images/About-hero.png"
-              alt="girl photo"
-              class="img-fluid"
-            />
-          </div>
-
-          <div class="col-md-6 about-text">
-            <h5 class="content-h5 text-uppercase contact-h5 mt-5 mb-3">
-              address
-            </h5>
-            <i class="fa-sharp fa-solid fa-location-dot pe-2 contact-p"></i>
-            <p class="d-inline contact-p">
-              021 Hollywood Boulevard, Los Angeles
-            </p>
-            <h5 class="content-h5 text-uppercase contact-h5 mt-5 mb-3">
-              email
-            </h5>
-            <i class="fa-solid fa-envelope contact-p pe-2"></i>
-            <p class="contact-p d-inline">
-              <a href="mailto:info@shecodes.io">info@shecodes.io</a>
-            </p>
-            <h5 class="content-h5 text-uppercase contact-h5 mt-5 mb-3">
-              phone
-            </h5>
-            <i class="fa-solid fa-phone contact-p pe-2"></i>
-            <p class="contact-p d-inline">021 3456 789</p>
-          </div>
+        <div class="col-lg-6 about-text ps-md-4">
+          <h5 class="content-h5 text-uppercase contact-h5 mt-5 mb-3">
+            address
+          </h5>
+          <i class="fa-sharp fa-solid fa-location-dot pe-2 contact-p"></i>
+          <p class="d-inline contact-p">021 Hollywood Boulevard, Los Angeles</p>
+          <h5 class="content-h5 text-uppercase contact-h5 mt-5 mb-3">email</h5>
+          <i class="fa-solid fa-envelope contact-p pe-2"></i>
+          <p class="contact-p d-inline">
+            <a class="mail-link" href="mailto:info@shecodes.io">info@shecodes.io</a>
+          </p>
+          <h5 class="content-h5 text-uppercase contact-h5 mt-5 mb-3">phone</h5>
+          <i class="fa-solid fa-phone contact-p pe-2"></i>
+          <p class="contact-p d-inline">021 3456 789</p>
         </div>
       </div>
+
+      <footer>
+        <div class="row">
+          <div class="col d-none d-md-grid">
+            <a href="https://www.shecodes.io/" target="_blank">
+              <img
+                src="/images/She Codes.png"
+                class="img-fluid logo d-none d-md-block"
+                alt="SheCodes logo"
+              />
+            </a>
+          </div>
+
+          <div class="col social-links text-center">
+            <a href="https://www.facebook.com/shelleywhite" target="_blank"><i class="fa-brands fa-square-facebook pe-4"></i></a>
+            <a href="https://www.instagram.com/shelleywhite" target="_blank"><i class="fa-brands fa-instagram pe-4"></i></a>
+            <a href="https://www.linkedin.com/shelleywhite" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+
+          <div class="col">
+            <p class="footer-text">© 2021 SheCodes All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
